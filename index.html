@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making A Employee Information Form</title>
+    <!-- All Css Here -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="emp-info-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="emp-info-head">
+                        <form action="#">
+                            <div class="emp-info-head-title">
+                                <h2>Employee Information</h2>
+                            </div>
+                            <div class="emp-info-head-content">
+                                <div>
+                                    System Code: <input type="text" name="systemCode">
+                                </div>
+                                <div>
+                                    Eployee Code: <input type="text" name="empCode">
+                                </div>
+                                <div>
+                                    Employee Name: <input type="text" name="empName">
+                                </div>
+                                <div class="emp-info-btn">
+                                    <input type="submit" name="submit" value="Submit">
+                                    <input type="reset" name="reset" value="Clear">
+                                    <input type="submit" name="cancle" value="Cancle">
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="emp-info-content">
+                        <!-- Tab List Start -->
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true">General Information</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true">Other Information</button>
+                            </li>
+
+                        </ul>
+                        <!-- Tab List End -->
+
+
+                        <!-- Tab Content Start -->
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="general-info-left">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                            aria-labelledby="home-tab" tabindex="0">
+                                            <div class="general-info-content">
+                                                <div class="#">Company:
+                                                    <select name="company" id="#">
+                                                        <option value="#">SMI Limited</option>
+                                                        <option value="#">SBAI Limited</option>
+                                                        <option value="#">SKI Limited</option>
+                                                        <option value="#">KGN Limited</option>
+                                                    </select>
+                                                </div>
+                                                <div>
+                                                    <label for="#"> Department:</label> <input type="text"
+                                                        name="departmen">
+                                                </div>
+                                                <div>
+                                                    Job Location: <input type="text" name="job-location">
+                                                </div>
+                                                <div>
+                                                    Job Nature:
+                                                    <select name="job-nature" id="#">
+                                                        <option value="#">Permanent</option>
+                                                        <option value="#">Seperated</option>
+                                                        <option value="#">Temporary</option>
+                                                        <option value="#">Contractual</option>
+                                                    </select>
+                                                </div>
+                                                <div>
+                                                    Job Grade: <select name="job-grade" id="#">
+                                                        <option value="#">A</option>
+                                                        <option value="#">B</option>
+                                                        <option value="#">C</option>
+                                                        <option value="#">D</option>
+                                                    </select>
+                                                </div>
+                                                <div>
+                                                    Jate of Joining: <input type="date" name="date-of-joining">
+                                                </div>
+                                                <div>
+                                                    Father's Name: <input type="text" name="fathers-name">
+                                                </div>
+                                                <div>
+                                                    Mother's Name: <input type="text" name="mothers-name">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="general-info-right">
+                                    <div>
+                                        Marital Status: <select name="marital-status" id="#">
+                                            <option value="#">Married</option>
+                                            <option value="#">Single</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        Blood Group: <select name="blood-group" id="#">
+                                            <option value="#">A+</option>
+                                            <option value="#">B+</option>
+                                            <option value="#">C+</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        Natioality: <input type="text" name="nationality">
+                                    </div>
+                                    <div>
+                                        Mobile Number: <input type="text" name="mobile-number">
+                                    </div>
+                                    <div>
+                                        Birth Registration Number: <input type="text" name="birth-registration-number">
+                                    </div>
+                                    <div>
+                                        National ID Number: <input type="text" name="national-id-number">
+                                    </div>
+                                    <div>
+                                        Religion:
+                                        <select name="religion" id="#">
+                                            <option value="#">Islam</option>
+                                            <option value="#">Islam</option>
+                                            <option value="#">Islam</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        Station <select name="#" id="#">
+                                            <option value="#">Jashore</option>
+                                            <option value="#">Khulna</option>
+                                            <option value="#">Dhaka</option>
+                                        </select>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Tab Content End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- All JS Here -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

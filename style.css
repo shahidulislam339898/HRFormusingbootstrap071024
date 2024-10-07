@@ -1,0 +1,46 @@
+.emp-info-head {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.emp-info-btn {
+    display: flex;
+    column-gap: 10px;
+    height: fit-content;
+    margin-top: 23px;
+}
+
+.emp-info-head-content {
+    margin-top: 25px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.general-info-left {
+    border: 1px solid #f2f2f2;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    /* background-color: antiquewhite; */
+}
+
+select#\# {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="date"] {
+    width: 100%;
+}
+
+.general-info-right {
+    border: 1px solid #f2f2f2;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    /* background-color: rgb(124, 111, 95); */
+}
